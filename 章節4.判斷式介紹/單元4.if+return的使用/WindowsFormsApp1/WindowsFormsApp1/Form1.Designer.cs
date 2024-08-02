@@ -93,6 +93,7 @@
             this.button8.TabIndex = 7;
             this.button8.Text = "執行4";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button7
             // 
@@ -102,6 +103,7 @@
             this.button7.TabIndex = 6;
             this.button7.Text = "執行3(不推薦)";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button6
             // 
@@ -111,6 +113,7 @@
             this.button6.TabIndex = 5;
             this.button6.Text = "執行2";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // numericUpDown2
             // 
@@ -127,6 +130,7 @@
             this.button1.TabIndex = 4;
             this.button1.Text = "執行1";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
