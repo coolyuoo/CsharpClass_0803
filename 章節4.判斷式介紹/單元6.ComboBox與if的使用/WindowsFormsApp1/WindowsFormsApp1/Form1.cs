@@ -183,45 +183,6 @@ namespace WindowsFormsApp1
             MessageBox.Show(all);
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            if (checkBox1.Checked == false || !checkBox2.Checked || checkBox3.Checked == false || !checkBox4.Checked)
-            {
-                MessageBox.Show("請至少選擇一個技術");
-            }
-
-
-            string all = "";
-
-            string t = comboBox3.Text;
-
-            all += t + "\r\n";
-
-            all += "你擅長的技術是:" + "\r\n";
-
-            if (checkBox1.Checked == true)
-            {
-                all = all + checkBox1.Text + "\r\n";
-            }
-
-            if (checkBox2.Checked == true)
-            {
-                all = all + checkBox2.Text + "\r\n";
-            }
-
-            if (checkBox3.Checked)
-            {
-                all = all + checkBox3.Text + "\r\n"; ;
-            }
-
-            if (checkBox4.Checked)
-            {
-                all = all + checkBox4.Text + "\r\n";
-            }
-
-
-            MessageBox.Show(all);
-        }
 
         private void button4_Click(object sender, EventArgs e)
         {
